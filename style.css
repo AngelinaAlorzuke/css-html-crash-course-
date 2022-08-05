@@ -1,0 +1,90 @@
+/* .box{
+width: 200px;
+height: 200px;
+background-color: aqua;
+ margin: 10px; 
+
+display: inline-block;
+}
+using flex(by default elements are on one line) 
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blueviolet;
+    align-items: stretch;
+    height: 100vh;
+}*/
+/*
+.box-1{
+    flex-basis: 400px;
+
+}
+.box-4{
+    flex: 2;
+    /* flex-basis: 400px; 
+}
+
+.box-1{
+   position: fixed;
+    background-color: red;
+    right: 0px;
+    right: 0;
+    bottom: 0;
+}
+
+
+.box-2{
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    background-color: gold;
+
+}
+ .box-3{
+    position: relative;
+    background-color: lime;
+    bottom: 100px;
+} 
+.box-4-grandparent{
+    position: relative;
+    width: 1000px;
+    height: 1000;
+    background-color: blueviolet;
+
+}
+.box-4-parent{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+.box-4{
+    position: absolute;
+    left: 0;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    box-shadow: 0 2px 5px 2px rgba(28, 187, 22, 0.1);
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 100px ;
+    
+}
+
+ul{
+    display:flex;
+    gap:20px;
+    list-style: none;
+
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(17, 149, 226);
+}
